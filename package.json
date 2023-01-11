@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "ionic-long-press",
-  "version": "2.0.3",
+  "version": "14.0.0",
   "description": "A little plugin to add long-press events to ionic components",
   "main": "./dist/index",
   "typings": "./dist/index.d.ts",
@@ -10,28 +10,26 @@
     "url": "https://github.com/wbhob/ionic-long-press.git"
   },
   "scripts": {
-    "build": "ng-packagr -p package.json"
+    "build": "ng-packagr -p ng-package.json"
   },
   "peerDependencies": {
-    "@angular/core": "12.x",
-    "@ionic/angular": "5.x",
-    "@types/hammerjs": "2.x",
-    "hammerjs": "2.x"
+    "@ionic/angular": "^6.0.0",
+    "@types/hammerjs": "^2.0.0",
+    "hammerjs": "^2.0.0"
   },
   "author": "Wilson Hobbs",
   "license": "MIT",
   "devDependencies": {
-    "@types/hammerjs": "^2.0.36",
-    "hammerjs": "^2.0.8",
-    "ng-packagr": "^12.1.0",
-    "prettier": "^2.3.2",
-    "pretty-quick": "^3.1.1",
-    "typescript": "^4.3.5"
-  },
-  "ngPackage": {
-    "lib": {
-      "entryFile": "src/index.ts"
-    }
+    "@angular/core": "^14.0.0",
+    "@angular/forms": "^14.0.0",
+    "@angular/router": "^14.0.0",
+    "@ionic/angular": "^6.0.0",
+    "@types/hammerjs": "^2.0.0",
+    "hammerjs": "^2.0.0",
+    "ng-packagr": "^14.0.0",
+    "prettier": "^2.0.0",
+    "pretty-quick": "^3.0.0",
+    "typescript": "^4.8.4"
   },
   "husky": {
     "hooks": {
